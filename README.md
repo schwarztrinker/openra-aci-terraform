@@ -2,14 +2,14 @@
 
 ## Docker Image
 
-Either you build the Image yourself or you use the Github Package under:
-
+Either you build the Image yourself or you use the Docker Hub Image named:
 ```
-ghcr.io/schwarztrinker/openra-aci-terraform:main
+schwarztrinker/openra-aci-terraform:main
 ```
 
 ## Terraform -> Azure Container Instance
 Deploy the Azure Container Instance via Terraform
+
 
 ```
 az login
