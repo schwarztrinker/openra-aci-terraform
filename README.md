@@ -17,3 +17,11 @@ az login
 cd infra
 terraform apply
 ```
+
+## Connect via OpenRA
+
+Connect via Direct IP: 
+
+```
+<IP_Adress>:1234
+```
