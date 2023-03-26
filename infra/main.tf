@@ -18,7 +18,7 @@ resource "azurerm_container_group" "container_group" {
 
   container {
     name   = "openra"
-    image  = "registry.reindruecken.de/openra/redalert-server:latest"
+    image  = "ghcr.io/schwarztrinker/openra-aci-terraform:main"
     cpu    = "1.0"
     memory = "1.0"
 
