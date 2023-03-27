@@ -1,16 +1,3 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-      version = "3.49.0"
-    }
-  }
-}
-
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "resource_group" {
   name     = "openra"
   location = "westeurope"
@@ -38,8 +25,3 @@ resource "azurerm_container_group" "container_group" {
     }
   }
 }
-
-output "ip_address" {
-  value = azurerm_container_group.container_group.ip_address
-}
-
